@@ -1,10 +1,24 @@
-# Nuxt Minimal Starter
+# 🚀 Nuxt Starter Kit (Enhanced Setup)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project is a **Nuxt 4 Starter Kit** with pre-installed modules.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## 📦 Included Modules
+
+Starter ini sudah dilengkapi dengan beberapa module:
+
+- @nuxt/fonts → Manajemen font modern
+- @nuxt/icon → Icon system yang fleksibel
+- @nuxt/image → Optimasi gambar otomatis
+- @nuxtjs/google-fonts → Integrasi Google Fonts
+- @nuxtjs/tailwindcss → Styling dengan Tailwind CSS
+
+---
+
+## ⚙️ Setup
+
+Install dependencies menggunakan package manager favorit kamu:
 
 ```bash
 # npm
@@ -18,58 +32,3 @@ yarn install
 
 # bun
 bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
