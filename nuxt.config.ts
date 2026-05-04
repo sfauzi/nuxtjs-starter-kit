@@ -2,12 +2,20 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-
+  css: ['~/assets/css/main.css'],
   modules: [
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxtjs/google-fonts',
     '@nuxtjs/tailwindcss'
-  ]
+  ],
+  googleFonts: {
+    families: {
+      Manrope: true,
+      Mansalva: true,
+      Rubik: true,
+      "DM Sans": true,
+    },
+  },
 })
